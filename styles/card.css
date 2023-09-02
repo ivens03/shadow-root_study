@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    display: flex;
+    background-color: white;
+    padding: 2%;
+}
+
+.button {
+    text-decoration: none;
+    color: #AAA;
+    display: block;
+}
+
+.button a {
+    margin-right: 10px;
+    text-decoration: none;
+}
